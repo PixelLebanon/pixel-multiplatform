@@ -32,11 +32,6 @@ subprojects {
             targetExclude(
                 "${layout.buildDirectory}/**/*.kt",) // Exclude files in the build directory
             ktlint("1.3.1").setEditorConfigPath(rootProject.file(".editorconfig").path)
-                .editorConfigOverride(
-                    mapOf(
-                        "ktlint_function_naming_ignore_when_annotated_with" to "Composable",
-                    )
-                )
             toggleOffOn() // Allow toggling Spotless off and on within code files using comments
             trimTrailingWhitespace()
             licenseHeaderFile(rootProject.file("spotless/copyright.kt"))

@@ -17,6 +17,7 @@ indent_size = 4
 
 # Experimental rules run by default run on the ktlint code base itself. Experimental rules should not be released if
 # we are not pleased ourselves with the results on the ktlint code base.
+ktlint_experimental=enabled
 
 # Disable trailing comma rules
 ij_kotlin_allow_trailing_comma = false
@@ -28,6 +29,8 @@ ij_kotlin_packages_to_use_import_on_demand = unset
 # Prevent wildcard imports
 ij_kotlin_name_count_to_use_star_import = 99
 ij_kotlin_name_count_to_use_star_import_for_members = 99
+ktlint_function_naming_ignore_when_annotated_with=Composable
+ktlint_chain_method_rule_force_multiline_when_chain_operator_count_greater_or_equal_than = unset
 
 [*.md]
 trim_trailing_whitespace = false
