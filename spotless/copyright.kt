@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Pixel
+ * Copyright (c) $YEAR Pixel
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +14,3 @@
  * limitations under the License.
  */
 
-package com.jetbrains.kmpapp
-
-import android.app.Application
-
-class PixelCatalogApp : Application() {
-    override fun onCreate() {
-        super.onCreate()
-    }
-}
