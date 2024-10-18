@@ -74,7 +74,7 @@ kotlin {
 
 android {
     namespace = "com.jetbrains.kmpapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.jetbrains.kmpapp"

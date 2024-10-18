@@ -22,7 +22,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.kotlinCompose)
-    id("com.vanniktech.maven.publish") version "0.29.0"
+    alias(libs.plugins.mavenPublish)
 }
 
 kotlin {
@@ -79,8 +79,8 @@ mavenPublishing {
 
         licenses {
             license {
-                name.set("MIT")
-                url.set("https://opensource.org/licenses/MIT")
+                name.set("Apache License, Version 2.0")
+                url.set("https://www.apache.org/licenses/LICENSE-2.0")
             }
         }
 
